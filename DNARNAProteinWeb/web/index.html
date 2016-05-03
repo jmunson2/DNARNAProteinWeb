@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+  This HTML form converts a coding DNA sequence (CDS) strand (5' to 3' direction) to 
+  its reverse complementary, RNA, and protein strand. 
+  
+  A message is provided to the user depending on the validity of the provided DNA strand.
+  
+  Example of form input: ATGAAATGA
+  Example of output: 
+   Message: Success!
+   Original DNA: ATGAAATGA
+   RNA: AUGAAAUGA
+   Complementary DNA: TCATTTCAT
+   Protein: MK
+  
+  Author: jmunson2
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>coding DNA strand (CDS) converter</title>
+        <!-- styled with CSS -->
+        <link rel="stylesheet" href="css/dnaconverter.css" type="text/css"/>
+        <!-- JavaScript used -->
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js'></script>
+        <script src="js/dnaconverter.js"></script>
+    </head>
+    <body>
+        <div id ="theForm">
+            <p id="instructions">Provide a single, coding DNA strand (CDS) that is in the 5' to 3' direction: </p>
+            <form name = "DNAConverterForm">
+                <textarea name="dna" id ='dna' rows="40" cols="70"></textarea>
+                <br>
+                <input type="button" name="example" id ='example' value="Click Here For Example">
+                <input type="button" name ="reset" id='reset' value="Reset Form">
+                <input type="button" name ="submit" id='submit' value="Submit">
+                <br>
+            </form>
+            <p id="note">Note: A header line (starts with ">") is NOT required.</p>
+        </div>
+        <!-- result goes here -->
+        <div id="result"></div>
+    </body>
+</html>

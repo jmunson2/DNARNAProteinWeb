@@ -1,0 +1,106 @@
+/*
+CSS for index.html and HTML results (see ConvertDNAServlet.java)
+*/
+/* 
+    Author: jmunson2
+*/
+
+body {
+    background-color:black;
+    font-family: "Times New Roman", Times, serif;
+}
+
+div.div_seq {
+    width: 500px; 
+    word-wrap: break-word;
+    border: 5px solid;
+    padding: 25px;
+}
+
+div#div_origDNA, p#p_origDNA {
+    color:limegreen;
+    border-color: limegreen;   
+}
+
+div#div_compDNA, p#p_compDNA {
+    color:cyan;
+    border-color:cyan;
+}
+
+div#div_mRNA, p#p_mRNA{
+    color: orangered;
+    border-color: orangered;
+}
+
+div#div_protein, p#p_protein {
+    color:plum;
+    border-color:plum;
+}
+
+p.p_seq {
+    cursor: pointer; 
+}
+
+p.p_seq:hover {
+    font-weight: bold;
+}
+
+div#theForm {
+    float: left;
+}
+
+div#result {
+    margin-left: 630px;
+}
+
+/* section1: original DNA, mRNA */
+/* section2: complementary DNA, protein */
+div#section1, div#section2 {
+    float: left;
+}
+
+div#section2 {
+    position: absolute;
+    left: 1230px;
+}
+
+p#instructions {
+   font-weight: bold;
+   color:gold;
+   text-shadow: 2px 2px blue;
+}
+
+h2 {
+    font-size:medium;
+    color:gold;
+}
+
+#example, #reset, #submit {
+    color:gold;
+    font-weight: bold;
+    border-color: gold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#example {
+    background-color:green;
+}
+
+#reset {
+    background-color:purple;
+}
+
+#submit {
+    background-color:blue;
+}
+
+#reset, #submit {
+    margin-left: 5px;
+}
+
+p#note {
+    font-size:small;
+    color:white;
+    font-style:italic;
+}
