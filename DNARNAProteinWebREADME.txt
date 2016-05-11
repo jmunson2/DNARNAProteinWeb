@@ -2,6 +2,8 @@
 
 The DNARNAProteinWeb NetBeans web project converts a coding DNA sequence (CDS) strand (5' to 3' direction) to its reverse complementary, RNA, and protein strand (each in the 5' to 3' direction). A message is provided to the user depending on the validity of the provided DNA strand. The input form for the CDS strand and the results are displayed on the same web page.
 
+Web page: http://convertdna-jmunson2.rhcloud.com/DNARNAProteinWeb/
+
 * MAIN CONTENTS OF DNARNAProteinWeb *
 
 - DNARNAProteinWeb_README.txt : this file
@@ -48,4 +50,4 @@ The NetBeans Java IDE was used to execute this project. Version 8.0.2 of NetBean
 
 jmunson2 (Jocelyn Munson) 
 
-
+2016
