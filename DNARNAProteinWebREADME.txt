@@ -4,6 +4,8 @@ The DNARNAProteinWeb NetBeans web project converts a coding DNA sequence (CDS) s
 
 Web page: http://convertdna-jmunson2.rhcloud.com/DNARNAProteinWeb/
 
+Best viewed in Firefox or Google Chrome.
+
 * MAIN CONTENTS OF DNARNAProteinWeb *
 
 - DNARNAProteinWeb_README.txt : this file
